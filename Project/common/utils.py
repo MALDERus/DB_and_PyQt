@@ -2,7 +2,7 @@
 
 import sys
 import json
-from Project.common.variables import MAX_PACKAGE_LENGTH, ENCODING
+from Project.common.variables import *
 from Project.errors import IncorrectDataRecivedError, NonDictInputError
 from Project.decos import log
 sys.path.append('../')
