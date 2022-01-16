@@ -770,3 +770,94 @@ hlolk
 drunk
 2022-01-03 17:42:19,829 INFO client.py Получено сообщение от пользователя User4:
 drunk
+2022-01-03 17:43:18,873 CRITICAL client.py Потеряно соединение с сервером.
+2022-01-03 17:43:18,873 CRITICAL client.py Потеряно соединение с сервером.
+2022-01-03 17:43:18,873 CRITICAL client.py Потеряно соединение с сервером.
+2022-01-03 17:43:18,873 CRITICAL client.py Потеряно соединение с сервером.
+2022-01-03 17:43:19,033 CRITICAL client.py Потеряно соединение с сервером.
+2022-01-03 17:43:19,033 CRITICAL client.py Потеряно соединение с сервером.
+2022-01-16 21:22:30,105 INFO transport.py Попытка подключения №1
+2022-01-16 21:22:33,140 INFO transport.py Попытка подключения №2
+2022-01-16 21:22:36,211 INFO transport.py Попытка подключения №3
+2022-01-16 21:22:39,238 INFO transport.py Попытка подключения №4
+2022-01-16 21:22:41,355 INFO transport.py Попытка подключения №1
+2022-01-16 21:22:42,283 INFO transport.py Попытка подключения №5
+2022-01-16 21:22:44,376 INFO transport.py Попытка подключения №2
+2022-01-16 21:22:45,333 CRITICAL transport.py Не удалось установить соединение с сервером
+2022-01-16 21:22:47,439 INFO transport.py Попытка подключения №3
+2022-01-16 21:25:38,847 DEBUG decos.py Была вызвана функция arg_parser c параметрами (), {}. Вызов из модуля __main__
+2022-01-16 21:26:05,795 DEBUG decos.py Была вызвана функция arg_parser c параметрами (), {}. Вызов из модуля __main__
+2022-01-16 21:26:05,807 DEBUG decos.py Была вызвана функция arg_parser c параметрами (), {}. Вызов из модуля __main__
+2022-01-16 21:26:05,809 INFO client_start.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: User2
+2022-01-16 21:26:05,821 INFO client_start.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: User1
+2022-01-16 21:26:05,844 INFO transport.py Попытка подключения №1
+2022-01-16 21:26:05,845 DEBUG transport.py Установлено соединение с сервером
+2022-01-16 21:26:05,845 DEBUG transport.py Сформировано presence сообщение для пользователя User2
+2022-01-16 21:26:05,845 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49514), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1642357565.845311, 'user': {'account_name': 'User2'}}), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:05,857 INFO transport.py Попытка подключения №1
+2022-01-16 21:26:05,857 DEBUG transport.py Установлено соединение с сервером
+2022-01-16 21:26:05,857 DEBUG transport.py Сформировано presence сообщение для пользователя User1
+2022-01-16 21:26:05,857 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=988, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49515), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1642357565.8572996, 'user': {'account_name': 'User1'}}), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:06,101 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49514), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:06,101 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-01-16 21:26:06,101 INFO transport.py Соединение с сервером успешно установлено.
+2022-01-16 21:26:06,101 DEBUG transport.py Запрос списка известных пользователей User2
+2022-01-16 21:26:06,101 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49514), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1642357566.1018739, 'account_name': 'User2'}), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:06,109 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=988, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49515), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:06,109 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-01-16 21:26:06,110 INFO transport.py Соединение с сервером успешно установлено.
+2022-01-16 21:26:06,110 DEBUG transport.py Запрос списка известных пользователей User1
+2022-01-16 21:26:06,110 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=988, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49515), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1642357566.1108644, 'account_name': 'User1'}), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:06,630 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49514), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:06,633 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=988, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49515), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:06,652 DEBUG transport.py Запрос контакт листа для пользователся Thread-1
+2022-01-16 21:26:06,653 DEBUG transport.py Сформирован запрос {'action': 'get_contacts', 'time': 1642357566.65311, 'user': 'User2'}
+2022-01-16 21:26:06,653 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49514), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1642357566.65311, 'user': 'User2'}), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:06,654 DEBUG transport.py Запрос контакт листа для пользователся Thread-1
+2022-01-16 21:26:06,655 DEBUG transport.py Сформирован запрос {'action': 'get_contacts', 'time': 1642357566.65509, 'user': 'User1'}
+2022-01-16 21:26:06,655 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=988, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49515), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1642357566.65509, 'user': 'User1'}), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:07,145 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49514), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:07,145 DEBUG transport.py Получен ответ {'response': 202, 'data_list': []}
+2022-01-16 21:26:07,145 DEBUG transport.py Запущен процесс - приёмник собщений с сервера.
+2022-01-16 21:26:07,146 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=988, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49515), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:07,146 DEBUG transport.py Получен ответ {'response': 202, 'data_list': []}
+2022-01-16 21:26:07,147 DEBUG transport.py Запущен процесс - приёмник собщений с сервера.
+2022-01-16 21:26:24,233 DEBUG transport.py Создание контакта User2
+2022-01-16 21:26:24,233 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=988, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49515), raddr=('127.0.0.1', 7777)>, {'action': 'add', 'time': 1642357584.2338548, 'user': 'User1', 'account_name': 'User2'}), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:24,509 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=988, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49515), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:24,509 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-01-16 21:26:24,524 INFO main_window.py Успешно добавлен контакт <PyQt5.QtGui.QStandardItem object at 0x000002CBA6839280>
+2022-01-16 21:26:34,719 DEBUG transport.py Сформирован словарь сообщения: {'action': 'message', 'from': 'User1', 'to': 'User2', 'time': 1642357594.7194145, 'mess_text': 'Hello'}
+2022-01-16 21:26:34,720 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=988, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49515), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'User1', 'to': 'User2', 'time': 1642357594.7194145, 'mess_text': 'Hello'}), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:35,492 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49514), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:35,493 DEBUG transport.py Принято сообщение с сервера: {'action': 'message', 'from': 'User1', 'to': 'User2', 'time': 1642357594.7194145, 'mess_text': 'Hello'}
+2022-01-16 21:26:35,493 DEBUG transport.py Разбор сообщения от сервера: {'action': 'message', 'from': 'User1', 'to': 'User2', 'time': 1642357594.7194145, 'mess_text': 'Hello'}
+2022-01-16 21:26:35,493 DEBUG transport.py Получено сообщение от пользователя User1:Hello
+2022-01-16 21:26:41,068 DEBUG transport.py Создание контакта User1
+2022-01-16 21:26:41,545 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49514), raddr=('127.0.0.1', 7777)>, {'action': 'add', 'time': 1642357601.069715, 'user': 'User2', 'account_name': 'User1'}), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:41,887 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49514), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:41,888 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-01-16 21:26:41,906 INFO main_window.py Успешно добавлен контакт <PyQt5.QtGui.QStandardItem object at 0x0000026ACDB89040>
+2022-01-16 21:26:51,322 DEBUG transport.py Сформирован словарь сообщения: {'action': 'message', 'from': 'User2', 'to': 'User1', 'time': 1642357611.3225138, 'mess_text': 'Hi dude'}
+2022-01-16 21:26:51,323 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49514), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'User2', 'to': 'User1', 'time': 1642357611.3225138, 'mess_text': 'Hi dude'}), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:51,806 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=988, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49515), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:26:51,807 DEBUG transport.py Принято сообщение с сервера: {'action': 'message', 'from': 'User2', 'to': 'User1', 'time': 1642357611.3225138, 'mess_text': 'Hi dude'}
+2022-01-16 21:26:51,807 DEBUG transport.py Разбор сообщения от сервера: {'action': 'message', 'from': 'User2', 'to': 'User1', 'time': 1642357611.3225138, 'mess_text': 'Hi dude'}
+2022-01-16 21:26:51,808 DEBUG transport.py Получено сообщение от пользователя User2:Hi dude
+2022-01-16 21:27:03,189 DEBUG transport.py Сформирован словарь сообщения: {'action': 'message', 'from': 'User1', 'to': 'User2', 'time': 1642357623.189381, 'mess_text': 'how are you?'}
+2022-01-16 21:27:03,190 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=988, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49515), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'User1', 'to': 'User2', 'time': 1642357623.189381, 'mess_text': 'how are you?'}), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:27:03,907 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49514), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:27:03,908 DEBUG transport.py Принято сообщение с сервера: {'action': 'message', 'from': 'User1', 'to': 'User2', 'time': 1642357623.189381, 'mess_text': 'how are you?'}
+2022-01-16 21:27:03,908 DEBUG transport.py Разбор сообщения от сервера: {'action': 'message', 'from': 'User1', 'to': 'User2', 'time': 1642357623.189381, 'mess_text': 'how are you?'}
+2022-01-16 21:27:03,908 DEBUG transport.py Получено сообщение от пользователя User1:how are you?
+2022-01-16 21:27:32,484 DEBUG transport.py Сформирован словарь сообщения: {'action': 'message', 'from': 'User2', 'to': 'User1', 'time': 1642357652.484183, 'mess_text': 'some text'}
+2022-01-16 21:27:32,743 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49514), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'User2', 'to': 'User1', 'time': 1642357652.484183, 'mess_text': 'some text'}), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:27:32,790 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=988, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49515), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:27:32,790 DEBUG transport.py Принято сообщение с сервера: {'action': 'message', 'from': 'User2', 'to': 'User1', 'time': 1642357652.484183, 'mess_text': 'some text'}
+2022-01-16 21:27:32,791 DEBUG transport.py Разбор сообщения от сервера: {'action': 'message', 'from': 'User2', 'to': 'User1', 'time': 1642357652.484183, 'mess_text': 'some text'}
+2022-01-16 21:27:32,791 DEBUG transport.py Получено сообщение от пользователя User2:some text
+2022-01-16 21:28:04,277 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49514), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1642357684.2774816, 'account_name': 'User2'}), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:28:04,278 DEBUG transport.py Транспорт завершает работу.
+2022-01-16 21:28:05,008 DEBUG transport.py Потеряно соединение с сервером.
+2022-01-16 21:28:06,193 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=988, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49515), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1642357685.7821255, 'account_name': 'User1'}), {}. Вызов из модуля Project.common.utils
+2022-01-16 21:28:06,193 DEBUG transport.py Транспорт завершает работу.
