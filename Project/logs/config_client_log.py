@@ -3,7 +3,7 @@
 import sys
 import os
 import logging
-from common.variables import LOGGING_LEVEL
+from Project.common.variables import LOGGING_LEVEL
 sys.path.append('../')
 
 # создаём формировщик логов (formatter):
